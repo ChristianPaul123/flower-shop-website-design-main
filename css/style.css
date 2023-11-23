@@ -42,6 +42,7 @@ section {
     text-align: center;
     pointer-events: none;
     position: relative;
+    margin-top: 10rem;
 }
 
 .heading span {
@@ -54,6 +55,16 @@ section {
     width: 100%;
     color: var(--sub-color);
     font-size: 3rem;
+}
+
+.sub-heading {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: .3rem var(--main-color);
+    letter-spacing: .2rem;
+    text-align: center;
+    pointer-events: none;
 }
 
 .btn {
@@ -73,11 +84,6 @@ section {
     border: var(--border-hover);
 }
 
-.margin {
-    padding: 4rem;
-    width: 100%;
-    display: block;
-}
 
 /* HEADER */
 
