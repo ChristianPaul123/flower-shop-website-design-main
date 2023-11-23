@@ -73,6 +73,12 @@ section {
     border: var(--border-hover);
 }
 
+.margin {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+}
+
 /* HEADER */
 
 .header {
