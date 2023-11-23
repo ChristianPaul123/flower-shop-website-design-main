@@ -365,11 +365,12 @@ section {
 
 .product .box-container .box {
     position: relative;
-   width: 30rem;
+    width: 30rem;
     flex: 1 1 21rem;
     padding: 1rem;
     border: var(--border);
     border-radius: var(--border-radius);
+    background-color: var(--least-color);
     display: flex;
     align-items: center;
     gap: 1.5rem;
